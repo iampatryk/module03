@@ -8,8 +8,6 @@ public class SummingTheArray {
         }
             System.out.println("Summing array numbers: " + sum);
     }
-
-
 }
 
 
