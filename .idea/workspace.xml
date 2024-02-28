@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="prep task TodoList">
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="update task TodoList">
+      <change afterPath="$PROJECT_DIR$/src/CountWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SummingTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummingTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709061119485</updated>
       <workItem from="1709061120486" duration="6839000" />
-      <workItem from="1709136368757" duration="1586000" />
+      <workItem from="1709136368757" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -94,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709066298310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update task TodoList">
+      <option name="closed" value="true" />
+      <created>1709145616438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709145616438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="prep task TodoList" />
-    <option name="LAST_COMMIT_MESSAGE" value="prep task TodoList" />
+    <MESSAGE value="update task TodoList" />
+    <option name="LAST_COMMIT_MESSAGE" value="update task TodoList" />
   </component>
 </project>
