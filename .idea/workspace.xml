@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="Student .">
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="CountWords . update">
+      <change afterPath="$PROJECT_DIR$/src/LibraryTask/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryTask/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryTask/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryTask/ScratchClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.intentionPowerPack",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -67,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709061119485</updated>
       <workItem from="1709061120486" duration="6839000" />
-      <workItem from="1709136368757" duration="17739000" />
+      <workItem from="1709136368757" duration="20308000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -133,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709236157808</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CountWords . update">
+      <option name="closed" value="true" />
+      <created>1709325950619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709325950619</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +161,7 @@
     <MESSAGE value="second solution summing the array" />
     <MESSAGE value="update ..." />
     <MESSAGE value="Student ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Student ." />
+    <MESSAGE value="CountWords . update" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountWords . update" />
   </component>
 </project>
