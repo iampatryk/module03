@@ -1,5 +1,7 @@
 package LibraryTask;
 
+import java.util.Objects;
+
 public class Author implements Comparable<Author> {
 
     private String name;
@@ -36,6 +38,18 @@ public class Author implements Comparable<Author> {
         this.favouriteGenre = favouriteGenre;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Author author = (Author) o;
+        return age == author.age && Objects.equals(name, author.name) && Objects.equals(favouriteGenre, author.favouriteGenre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, favouriteGenre);
+    }
 
     @Override
     public String toString() {
@@ -45,6 +59,7 @@ public class Author implements Comparable<Author> {
                 ", favouriteGenre='" + favouriteGenre + '\'' +
                 '}';
     }
+
 
     @Override
     public int compareTo(Author o) {
