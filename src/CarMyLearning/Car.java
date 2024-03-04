@@ -4,16 +4,17 @@ public class Car implements Comparable<Car> {
 
     String mark;
     String model;
-    int engine;
+    int engineKilometers;
 
-    public Car(String mark, String model, int engine) {
+    public Car(String mark, String model, int engineKilometers) {
         this.mark = mark;
         this.model = model;
-        this.engine = engine;
+        this.engineKilometers = engineKilometers;
     }
 
-    public int getEngine() {
-        return engine;
+    public int getEngineKilometers() {
+
+        return engineKilometers;
     }
 
     //    @Override
@@ -23,6 +24,7 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int compareTo(Car o) {
-        return Integer.compare(this.engine, o.getEngine());
+
+        return Integer.compare(this.engineKilometers, o.getEngineKilometers());
     }
 }

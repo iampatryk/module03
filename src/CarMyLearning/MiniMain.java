@@ -1,6 +1,5 @@
 package CarMyLearning;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class MiniMain {
@@ -33,13 +32,13 @@ public class MiniMain {
         System.out.println("----- Cars Of Users 1 -----");
         List<Car> userCars = office.getCarsOfUser(uers1);
         for(Car car : userCars) {
-            System.out.println(car.mark + " " + car.model + " " + car.engine);
+            System.out.println(car.mark + " " + car.model + " " + car.engineKilometers);
         }
 
         System.out.println("----- Cars Of Users 2 -----");
         List<Car> userCars2 = office.getCarsOfUser(uers2);
         for(Car car : userCars2) {
-            System.out.println(car.mark + " " + car.model + " " + car.engine);
+            System.out.println(car.mark + " " + car.model + " " + car.engineKilometers);
         }
 
         System.out.println("----- All users -----");
@@ -51,14 +50,14 @@ public class MiniMain {
         System.out.println("----- All cars -----");
         List<Car> allCarList = office.getAllCars();
         for (Car car : allCarList) {
-            System.out.println(car.mark + " " + car.model + " " + car.engine);
+            System.out.println(car.mark + " " + car.model + " " + car.engineKilometers);
         }
 
         System.out.println("----- Sorting cars by engine -----");
         List<Car> allCarsList = office.getAllCars();
         Collections.sort(allCarsList);
         for(Car car : allCarsList) {
-            System.out.println(car.mark + " " + car.model + " " + car.engine);
+            System.out.println(car.mark + " " + car.model + " " + car.engineKilometers);
         }
 
 
