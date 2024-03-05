@@ -20,10 +20,12 @@ public class CountWords {
         HashMap<String, Integer> wordCountMap = new HashMap<>();
 
         for (String word : words) {
-            // Metoda merge z HashMap pozwala na łączenie wartości dla danego klucza.
-            // Jeśli klucz (słowo) już istnieje w mapie, użyj funkcji Integer::sum, aby zwiększyć liczbę wystąpień o 1.
-            // Jeśli klucz nie istnieje, dodaj nowy klucz z wartością 1.
-            wordCountMap.merge(word, 1, Integer::sum);
+            if (wordCountMap.containsKey(word)) {
+                Integer tmp = wordCountMap.get(word);
+                tmp += 1;
+            } else {
+                wordCountMap.put(word, 1);
+            }
         }
         return wordCountMap;
     }

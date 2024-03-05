@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="Library">
-      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Author.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/ScratchClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="update.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarMyLearning/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarMyLearning/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SummingTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummingTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1709136368757" duration="25120000" />
       <workItem from="1709416605625" duration="7640000" />
       <workItem from="1709492121847" duration="726000" />
-      <workItem from="1709492981557" duration="9363000" />
+      <workItem from="1709492981557" duration="11282000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -186,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709582494616</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update.">
+      <option name="closed" value="true" />
+      <created>1709657855965</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709657855965</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +211,8 @@
     <MESSAGE value="prep Library" />
     <MESSAGE value="bigUpdate/allDayWork" />
     <MESSAGE value="Library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library" />
+    <MESSAGE value="update." />
+    <option name="LAST_COMMIT_MESSAGE" value="update." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

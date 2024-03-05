@@ -59,3 +59,5 @@ public class Office {
 // określonego klucza w mapie.
 
 // Metoda get służy do pobierania wartości przypisanej do określonego klucza w mapie.
+
+

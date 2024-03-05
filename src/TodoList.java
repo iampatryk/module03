@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class TodoList {
     // nie jestem pewny czy w tym miejscu ma byc lista ?
-    ArrayList<String> todoList = new ArrayList<>();
+    private ArrayList<String> todoList = new ArrayList<>();
     public void add(String task) {
     //Dodaj zadanie do listy
         //dodajemy add(tu jest string czyli poprostu bedziemy wpisywac)

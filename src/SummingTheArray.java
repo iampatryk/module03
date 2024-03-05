@@ -8,7 +8,7 @@ public class SummingTheArray {
         }
             System.out.println("Summing array numbers: " + sum);
     }
-
+    // dodac argument sumArray(tutaj)
     public void sumaTablicy() {
         int[] liczby = {2333,3233,3233,333};
         int suma = 0;

@@ -7,13 +7,13 @@ import java.util.Map;
 
 public class MyLibrary {
 
-    Map<MyAuthor, List<MyBook>> myAuthorListMap = new HashMap<>();
+    private Map<MyAuthor, List<MyBook>> myAuthorListMap = new HashMap<>();
 
-    void addMyAuthor(MyAuthor myAuthor) {
+    public void addMyAuthor(MyAuthor myAuthor) {
         myAuthorListMap.putIfAbsent(myAuthor,new ArrayList<>());
     }
 
-    void addBookToMyAuthor(MyAuthor myAuthor, MyBook myBook) {
+    public void addBookToMyAuthor(MyAuthor myAuthor, MyBook myBook) {
         if(myAuthorListMap.containsKey(myAuthor)) {
             myAuthorListMap.get(myAuthor).add(myBook);
         }
@@ -35,7 +35,7 @@ public class MyLibrary {
         return allBooks;
     }
 
-    void getAllAuthorsAndBooks() {
+    public void getAllAuthorsAndBooks() {
         Map<MyAuthor, List<MyBook>> result = new HashMap<>();
 
         for (Map.Entry<MyAuthor, List<MyBook>> entry : myAuthorListMap.entrySet()) {
