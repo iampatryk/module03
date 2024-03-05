@@ -70,14 +70,7 @@ public class MyMiniMain {
         System.out.println("===== ALL AUTHORS AND ALL BOOKS =====");
         myLibrary.getAllAuthorsAndBooks();
 
-
-
-
-
-
     }
 }
 
 
-//bookcar
-//autuser

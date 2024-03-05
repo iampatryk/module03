@@ -25,13 +25,12 @@ public class CountWords {
             // Jeśli klucz nie istnieje, dodaj nowy klucz z wartością 1.
             wordCountMap.merge(word, 1, Integer::sum);
         }
-//        return wordCountMap;
         return wordCountMap;
     }
 }
 
 
-//Zatem wyrażenie text.split("\\s+") dzieli tekst na słowa, traktując dowolny biały znak jako separator
+// Zatem wyrażenie text.split("\\s+") dzieli tekst na słowa, traktując dowolny biały znak jako separator
 // pomiędzy nimi. Na przykład, jeśli mamy tekst "Ala ma kota", to po użyciu split("\\s+") otrzymamy tablicę
 // zawierającą trzy elementy: ["Ala", "ma", "kota"].
 
@@ -39,5 +38,4 @@ public class CountWords {
 // zwróci HashMapę, w której kluczem jest słowo, a wartością ilość
 // wystąpień w tekście:
 
-//public HashMap<String, Integer> countWords(String text)
 

@@ -55,4 +55,3 @@ public class MyLibrary {
 
 // pamietac o zmianie Stringa na MyAuthor gdyby nie dzialalo ale zobaczymy ...
 
-//getAllBooksAndAuthors();

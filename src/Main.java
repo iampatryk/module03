@@ -1,45 +1,13 @@
-import LibraryTask.Author;
-import LibraryTask.Book;
-import LibraryTask.Library;
+//import LibraryTask.Author;
+//import LibraryTask.Book;
+//import LibraryTask.Library;
 
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-
-//            Library library = new Library();
-//
-//            Book b1 = new Book("asddasd","dasdad",1233);
-//            Book b2 = new Book("asddasdasdasd","dasdasddad",133);
-//            Book b3 = new Book("asddaasdasdsd","dasdddaddad",33);
-//            library.addBookToAuthor("AutorKsiazki","Tylul Ksiazki");
-
-
-
-
-
-
-
-//            Map<Author, List<Book>> authorListMap = new HashMap<>();
-//            Author a1 = new Author("Ksiazka Jeden",23,"jeden");
-//            Book b1 = new Book("asddasd","dasdad",1233);
-//            Book b2 = new Book("asddasdasdasd","dasdasddad",133);
-//            Book b3 = new Book("asddaasdasdsd","dasdddaddad",33);
-//            List<Book> books = new ArrayList<>();
-//            books.add(b1);
-//            books.add(b2);
-//            books.add(b3);
-//
-//            authorListMap.put(a1,books);
-//            System.out.println(authorListMap.size());
-//
-//            System.out.println(authorListMap.get(a1));
-//
-//            List<Book> tmp = authorListMap.get(a1);
-//            tmp.add(new Book("ksiazka","adfd",1333));
-//            authorListMap.put(a1,tmp);
-
+        System.out.println(" ===== Hello ! ===== ");
 
 
 //        Student s1 = new Student("Wood",23,199,"Alex");
@@ -106,17 +74,8 @@ public class Main {
 
 
 
-
-
-
-
-
 //        CountWords myCunter = new CountWords();
 //        myCunter.wordCounter();
-
-
-
-
 
 
 
@@ -133,8 +92,4 @@ public class Main {
 
 
     }
-
-//    private static HashMap<String, Integer> countWords(String tekst) {
-//        return null;
-//    }
 }

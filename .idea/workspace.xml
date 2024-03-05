@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="bigUpdate/allDayWork">
-      <change afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarMyLearning/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarMyLearning/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarMyLearning/MiniMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarMyLearning/MiniMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryTask/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryTask/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryTask/Library.java" afterDir="false" />
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="Library">
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryTask/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryTask/ScratchClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +88,7 @@
       <workItem from="1709136368757" duration="25120000" />
       <workItem from="1709416605625" duration="7640000" />
       <workItem from="1709492121847" duration="726000" />
-      <workItem from="1709492981557" duration="8651000" />
+      <workItem from="1709492981557" duration="9363000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -183,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709494092177</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Library">
+      <option name="closed" value="true" />
+      <created>1709582494616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709582494616</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +202,8 @@
     <MESSAGE value="CountWords . update" />
     <MESSAGE value="prep Library" />
     <MESSAGE value="bigUpdate/allDayWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="bigUpdate/allDayWork" />
+    <MESSAGE value="Library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
