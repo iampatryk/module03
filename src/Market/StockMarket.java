@@ -1,5 +1,4 @@
 package Market;
-import java.util.ArrayList;
 
 import java.util.*;
 
@@ -17,6 +16,15 @@ public class StockMarket {
     }
 
     public void getTotalMarketCap(Date date) {
+
+    }
+
+    public void addStockToDay(Stock stock, Date date) {
+        // Sprawdź, czy mapa zawiera już klucz odpowiadający danej dacie
+        if(stocksMap.containsKey(date)) {
+            // Jeśli tak, pobierz zestaw akcji dla tej daty i dodaj nową akcję do tego zestawu
+            stocksMap.get(date).add(stock);
+        }
 
     }
 }

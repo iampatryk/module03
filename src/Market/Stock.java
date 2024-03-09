@@ -1,5 +1,7 @@
 package Market;
 
+import java.util.Objects;
+
 public class Stock {
     String ticker;
     double value;
@@ -41,5 +43,18 @@ public class Stock {
                 "ticker: '" + ticker + '\'' +
                 " || value: " + value + "zl" +
                 " || amountInCirculation: " + amountInCirculation + "mld";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Stock stock = (Stock) o;
+        return Double.compare(value, stock.value) == 0 && amountInCirculation == stock.amountInCirculation && Objects.equals(ticker, stock.ticker);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ticker, value, amountInCirculation);
     }
 }

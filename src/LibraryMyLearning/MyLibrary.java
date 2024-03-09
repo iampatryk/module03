@@ -7,23 +7,27 @@ import java.util.Map;
 
 public class MyLibrary {
 
-    private Map<MyAuthor, List<MyBook>> myAuthorListMap = new HashMap<>();
+    private Map<String, List<MyBook>> myAuthorListMap = new HashMap<>();
 
-    public void addMyAuthor(MyAuthor myAuthor) {
-        myAuthorListMap.putIfAbsent(myAuthor,new ArrayList<>());
+    public void addMyAuthor(String myAuthor) {
+        myAuthorListMap.put(myAuthor,new ArrayList<>());
     }
 
-    public void addBookToMyAuthor(MyAuthor myAuthor, MyBook myBook) {
+    public void addBookToMyAuthor(String myAuthor, MyBook myBook) {
         if(myAuthorListMap.containsKey(myAuthor)) {
             myAuthorListMap.get(myAuthor).add(myBook);
         }
     }
 
-    List<MyBook> getBooksOfAuthor(MyAuthor myAuthor) {
-        return myAuthorListMap.getOrDefault(myAuthor, new ArrayList<>());
+    List<MyBook> getBooksOfAuthor(String myAuthor) {
+        if(myAuthorListMap.containsKey(myAuthor)) {
+            return myAuthorListMap.get(myAuthor);
+        } else {
+            return new ArrayList<>();
+        }
     }
 
-    List<MyAuthor> getAllAuthors() {
+    List<String> getAllAuthors() {
         return new ArrayList<>(myAuthorListMap.keySet());
     }
 
@@ -36,10 +40,10 @@ public class MyLibrary {
     }
 
     public void getAllAuthorsAndBooks() {
-        Map<MyAuthor, List<MyBook>> result = new HashMap<>();
+        Map<String, List<MyBook>> result = new HashMap<>();
 
-        for (Map.Entry<MyAuthor, List<MyBook>> entry : myAuthorListMap.entrySet()) {
-            MyAuthor myAuthor = entry.getKey();
+        for (Map.Entry<String, List<MyBook>> entry : myAuthorListMap.entrySet()) {
+            String myAuthor = entry.getKey();
             List<MyBook> myBooks = new ArrayList<>(entry.getValue());
             System.out.println("Authors: " + myAuthor.getName());
             System.out.println("Books: ");
@@ -53,5 +57,4 @@ public class MyLibrary {
 
 
 
-// pamietac o zmianie Stringa na MyAuthor gdyby nie dzialalo ale zobaczymy ...
 

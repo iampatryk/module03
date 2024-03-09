@@ -1,26 +1,24 @@
 package LibraryMyLearning;
 
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class MyMiniMain {
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
         System.out.println(" ----- LIBRARY ----- " + "\n");
 
         MyLibrary myLibrary = new MyLibrary();
 
-        MyAuthor author1 = new MyAuthor("J.K. Rowling",58,"Fantasy");
-        MyAuthor author2 = new MyAuthor("J.R.R Tolkien",81,"Fantasy");
-        MyAuthor author3 = new MyAuthor("C.S Lewis",65,"Fantasy");
+        String author1 = new String("J.K. Rowling",58,"Fantasy");
+        String author2 = new String("J.R.R Tolkien",81,"Fantasy");
+        String author3 = new String("C.S Lewis",65,"Fantasy");
         myLibrary.addMyAuthor(author1);
         myLibrary.addMyAuthor(author2);
         myLibrary.addMyAuthor(author3);
 
         System.out.println("===== ALL AUTHORS =====");
-        List<MyAuthor> authorList = myLibrary.getAllAuthors();
-        for(MyAuthor myAuthor : authorList) {
+        List<String> authorList = myLibrary.getAllAuthors();
+        for(String myAuthor : authorList) {
             System.out.println(myAuthor.name + " " + myAuthor.age + " " + myAuthor.favouriteGenre);
         }
         System.out.println("_____________________" + "\n");

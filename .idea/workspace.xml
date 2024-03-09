@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="...">
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="...again">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryMyLearning/MyMiniMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Market/MainMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Market/MainMarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Market/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Market/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Market/StockMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Market/StockMarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +91,11 @@
       <workItem from="1709416605625" duration="7640000" />
       <workItem from="1709492121847" duration="726000" />
       <workItem from="1709492981557" duration="18737000" />
-      <workItem from="1709759374052" duration="2258000" />
+      <workItem from="1709759374052" duration="4861000" />
+      <workItem from="1709833110455" duration="1162000" />
+      <workItem from="1709840565245" duration="6000" />
+      <workItem from="1709841146102" duration="24000" />
+      <workItem from="1709841377352" duration="6388000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -208,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709760575330</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="...again">
+      <option name="closed" value="true" />
+      <created>1709830877943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709830877943</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +244,8 @@
     <MESSAGE value="Library" />
     <MESSAGE value="update." />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="...again" />
+    <option name="LAST_COMMIT_MESSAGE" value="...again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
