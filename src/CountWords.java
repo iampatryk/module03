@@ -12,10 +12,10 @@ public class CountWords {
         System.out.println("Word: " + word + " it's use " + numberWord + " times.");
 
     }
-
     public static HashMap<String, Integer> countWords(String text) {
         // podzielenie tekstu
         String[] words = text.split("\\s+");
+
         //     // Inicjalizacja pustej mapy, gdzie kluczem jest słowo, a wartością ilość jego wystąpień.
         HashMap<String, Integer> wordCountMap = new HashMap<>();
 
@@ -28,6 +28,25 @@ public class CountWords {
             }
         }
         return wordCountMap;
+    }
+
+    public static HashMap<String, Integer> checkWord(String text, String searchWord) {
+        String[] words = text.split("\\s+");
+
+        HashMap<String, Integer> checkWordMap = new HashMap<>();
+
+        for (String word : words) {
+            if(word.equals(searchWord)) {
+                Integer count = checkWordMap.get(word);
+                // Jeśli słowo już istnieje w mapie, zwiększenie ilości wystąpień o 1
+                // Jeśli słowo nie istnieje, dodanie go do mapy z ilością wystąpień równą 1
+                if(count != null) {
+                    checkWordMap.put(word, count +1);
+                } else {
+                    checkWordMap.put(word, 1);
+                }
+            }
+        } return checkWordMap;
     }
 }
 
