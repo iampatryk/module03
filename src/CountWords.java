@@ -14,7 +14,7 @@ public class CountWords {
     }
     public static HashMap<String, Integer> countWords(String text) {
         // podzielenie tekstu
-        String[] words = text.split("\\s+");
+        String[] words = text.split("[\\s,.;!?\\-:]+");
 
         //     // Inicjalizacja pustej mapy, gdzie kluczem jest słowo, a wartością ilość jego wystąpień.
         HashMap<String, Integer> wordCountMap = new HashMap<>();
@@ -31,7 +31,8 @@ public class CountWords {
     }
 
     public static HashMap<String, Integer> checkWord(String text, String searchWord) {
-        String[] words = text.split("\\s+");
+//        String[] words = text.split("\\s+");
+        String[] words = text.split("[\\s,.;!?\\-:]+");
 
         HashMap<String, Integer> checkWordMap = new HashMap<>();
 
