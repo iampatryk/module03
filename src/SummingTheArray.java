@@ -17,6 +17,15 @@ public class SummingTheArray {
         }
         System.out.println("Suma = " + suma);
     }
+
+    public static int sumaTablicyLiczb(int[] tablicaLiczb) {
+        int suma = 0;
+        for ( int liczba : tablicaLiczb) {
+            suma += liczba;
+        }
+        System.out.println("Suma = " + suma);
+        return suma;
+    }
 }
 
 

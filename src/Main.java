@@ -93,7 +93,7 @@ public class Main {
             System.out.println(" ");
 
             HashMap<String, Integer> checkWordMap = CountWords.checkWord(text,searchWord);
-            System.out.println("Word: " + "'" + searchWord + "'" + " it's use " + checkWordMap.get(searchWord));
+            System.out.println("Word: " + "'" + searchWord + "'" + " it's use " + checkWordMap.get(searchWord) + " times.");
 
 
 

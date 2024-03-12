@@ -72,3 +72,35 @@ public class MyMiniMain {
 }
 
 
+
+/*
+1. Sumowanie tablicy: Stwórz metodę, która przyjmuje jako argument tablicę liczb naturalnych i zsumuje jej wartości:
+public int sumArray(int[] numbers)
+2. TodoList: Stwórz klasę TodoList. Powinna zawierać konstruktor bez parametrów, który inicjalizuje wewnętrzną tablicę do przechowywania rzeczy do zrobienia i następujące metody:
+public void add(String task) - Dodaj zadanie do listy;
+public void print() - Wydrukuj zadania z listy wraz z ich numerem na liście;
+public void remove(int number) - Usuń zadanie z podanego numeru.
+3. Liczenie słów w tekście: Napisz metodę, która przyjmując String, zwróci HashMapę, w której kluczem jest słowo, a wartością ilość wystąpień w tekście:
+public HashMap<String, Integer> countWords(String text)
+Jako tekst wykorzystaj wygenerowany tekst z https://www.lipsum.com/
+4. Sortowanie listy: Stwórz klasę Student z polami: age, height, name, lastName. Zaimplementuj interfejs Comparable, w taki sposób, aby głównym kryterium było nazwisko, drugim wiek. Stwórz listę 5 obiektów i użyj metody sort. Lista przed powinna się różnic od listy po.
+5. Stwórz klasę biblioteki, która umożliwi użytkownikowi na zapis autora i listy książek, które napisał. Użytkownik powinien móc dodać autora, książki do autora. Książki powinny być sortowane przy użyciu liczby stron. Jako główną strukturę danych wykorzystaj HashMapę, gdzie kluczem jest autor, wartością lista książek.
+Klasy:
+
+Author
+name;
+age;
+favouriteGenre;
+Book
+	title;
+	genre;
+	numberOfPages;
+Library
+	getBooksOfAuthor(String authorName)
+	addBookToAuthor(String authorName, Book book)
+	getAllAuthors()
+	getAllBooks();
+	getAllBooksAndAuthors();
+	addAuthor(Author author) ;
+
+ */
