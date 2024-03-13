@@ -10,6 +10,13 @@ public class TestsSummingTheArray {
         Assertions.assertEquals(9,sum);
 
     }
+
+    @Test
+    public void checkReactionForNegativeNumbers() {
+        int[] arrayWithNegativeNumber = {1,2,1,-4};
+        int sum = SummingTheArray.sumaTablicyLiczb(arrayWithNegativeNumber);
+        Assertions.assertEquals(0,sum);
+    }
 }
 
 

@@ -89,16 +89,18 @@ public class Main {
             for (String word : wordCountMap.keySet()) {
                 System.out.println(word + ": " + wordCountMap.get(word));
             }
+//
+//            System.out.println(" ");
+//
+//            HashMap<String, Integer> checkWordMap = CountWords.checkWord(text,searchWord);
+//            System.out.println("Word: " + "'" + searchWord + "'" + " it's use " + checkWordMap.get(searchWord) + " times.");
+//
+//
 
-            System.out.println(" ");
-
-            HashMap<String, Integer> checkWordMap = CountWords.checkWord(text,searchWord);
-            System.out.println("Word: " + "'" + searchWord + "'" + " it's use " + checkWordMap.get(searchWord) + " times.");
 
 
-
-
-
+//        int[] tmp  = {1,2,3,-4};
+//        SummingTheArray.sumaTablicyLiczb(tmp);
 
 
 

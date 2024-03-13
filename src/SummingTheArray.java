@@ -21,11 +21,23 @@ public class SummingTheArray {
     public static int sumaTablicyLiczb(int[] tablicaLiczb) {
         int suma = 0;
         for ( int liczba : tablicaLiczb) {
-            suma += liczba;
+                suma += liczba;
         }
         System.out.println("Suma = " + suma);
         return suma;
     }
+
+//    public static int sumaTablicyLiczb(int[] tablicaLiczb) {
+//        int suma = 0;
+//        for ( int liczba : tablicaLiczb) {
+//            if(liczba >= 0) {
+//                suma += liczba;
+//            }
+//        }
+//        System.out.println("Suma = " + suma);
+//        return suma;
+//    }
+//    metoda ktora nie pozwala uzywa liczb ujemnych w tablicy
 }
 
 

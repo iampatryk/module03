@@ -22,7 +22,8 @@ public class CountWords {
         for (String word : words) {
             if (wordCountMap.containsKey(word)) {
                 Integer tmp = wordCountMap.get(word);
-                tmp += 1;
+                tmp ++;
+                wordCountMap.put(word, tmp);
             } else {
                 wordCountMap.put(word, 1);
             }
