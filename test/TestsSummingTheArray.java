@@ -4,11 +4,9 @@ import org.junit.jupiter.api.Test;
 public class TestsSummingTheArray {
     @Test
     public void checkIfTableReturnTrue() {
-
         int[] tablica = {1,3,5};
         int sum = SummingTheArray.sumaTablicyLiczb(tablica);
         Assertions.assertEquals(9,sum);
-
     }
 
     @Test
@@ -16,6 +14,7 @@ public class TestsSummingTheArray {
         int[] arrayWithNegativeNumber = {1,2,1,-4};
         int sum = SummingTheArray.sumaTablicyLiczb(arrayWithNegativeNumber);
         Assertions.assertEquals(0,sum);
+        Assertions.assertNotEquals(4,0);
     }
 }
 

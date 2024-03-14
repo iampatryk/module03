@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="unit tests" />
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="unit tests">
+      <change afterPath="$PROJECT_DIR$/test/TestSortingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +48,7 @@
     "JUnit.TestCountWords.checkWordsCount.executor": "Run",
     "JUnit.TestShowcase.executor": "Run",
     "JUnit.TestShowcase.testArrayEqualsAssertions.executor": "Run",
+    "JUnit.TestSortingList.testArrayBeforeSorting.executor": "Debug",
     "JUnit.TestsSummingTheArray.checkIfTableReturnTrue.executor": "Run",
     "JUnit.TestsSummingTheArray.checkReactionForNegativeNumbers.executor": "Run",
     "Java Scratch.Scratch.executor": "Run",
@@ -72,7 +77,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestCountWords.checkWordsCount">
+  <component name="RunManager" selected="JUnit.TestsSummingTheArray.checkReactionForNegativeNumbers">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="module03" />
@@ -90,21 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShowcase.testArrayEqualsAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSortingList.testArrayAfterSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="module03" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestShowcase" />
-      <option name="METHOD_NAME" value="testArrayEqualsAssertions" />
+      <option name="MAIN_CLASS_NAME" value="TestSortingList" />
+      <option name="METHOD_NAME" value="testArrayAfterSorting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsSummingTheArray.checkIfTableReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSortingList.testArrayBeforeSorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="module03" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestsSummingTheArray" />
-      <option name="METHOD_NAME" value="checkIfTableReturnTrue" />
+      <option name="MAIN_CLASS_NAME" value="TestSortingList" />
+      <option name="METHOD_NAME" value="testArrayBeforeSorting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCountWords.checkWordsCount" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestsSummingTheArray.checkReactionForNegativeNumbers" />
-        <item itemvalue="JUnit.TestShowcase.testArrayEqualsAssertions" />
-        <item itemvalue="JUnit.TestsSummingTheArray.checkIfTableReturnTrue" />
+        <item itemvalue="JUnit.TestSortingList.testArrayAfterSorting" />
+        <item itemvalue="JUnit.TestSortingList.testArrayBeforeSorting" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestCountWords.checkWordsCount" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +167,7 @@
       <workItem from="1710012644184" duration="3540000" />
       <workItem from="1710187300824" duration="497000" />
       <workItem from="1710260757587" duration="1990000" />
-      <workItem from="1710265343913" duration="7055000" />
+      <workItem from="1710265343913" duration="8060000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -332,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710364887375</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="unit tests">
+      <option name="closed" value="true" />
+      <created>1710448765263</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710448765263</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
