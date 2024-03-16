@@ -1,6 +1,5 @@
 public class PasswordChecker {
 
-
     public boolean hasGoodLength(String password) {
 //        return password.length() >= 12;
 
@@ -10,7 +9,6 @@ public class PasswordChecker {
             System.out.println("Password must contain more than 12 characters");
             return false;
         }
-
     }
     public boolean hasNoWhiteSpaces(String password) {
 //        return !password.contains(" ");
@@ -21,13 +19,25 @@ public class PasswordChecker {
         } else {
             return true;
         }
-
     }
     public boolean hasNoRepetitions(String password) {
-        //Sprawdzamy/przechodzimy przez kazdy znak
-        for(int i = 0; i < password.length() - 1; i++) {
-            //jak i jest takie samo jak i + 1 czyli kolejny znak to false
-            if(password.charAt(i) == password.charAt(i + 1)) {
+
+//        //Sprawdzamy/przechodzimy przez kazdy znak
+//        for(int i = 0; i < password.length() - 1; i++) {
+//            //jak i jest takie samo jak i + 1 czyli kolejny znak to false
+//            if(password.charAt(i) == password.charAt(i + 1)) {
+//                System.out.println("Characters next to each other cannot be repeated");
+//                return false;
+//            }
+//        }
+//        return true;
+
+//      zrobic zeby ten kod dzialal czyli polaczyc ze skanerem
+
+        for (int i = 0; i < password.length() - 1; i++) {
+            char currentChar = password.charAt(i);
+            char nextChar = password.charAt(i + 1);
+            if (currentChar == nextChar) {
                 System.out.println("Characters next to each other cannot be repeated");
                 return false;
             }
