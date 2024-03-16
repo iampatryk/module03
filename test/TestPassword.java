@@ -17,21 +17,27 @@ public class TestPassword {
     }
 
     @Test
-    public void hasNoRepetitions() {
+    public void testHasNoRepetitions() {
         Assertions.assertTrue(passwordChecker.hasNoRepetitions("1234567890qw"));
-        Assertions.assertTrue(passwordChecker.hasNoRepetitions("11aadsdsffds"));
+        Assertions.assertFalse(passwordChecker.hasNoRepetitions("11aadsdsffds"));
     }
 
     @Test
-    public void hasNumbers() {
+    public void testHasNumbers() {
         Assertions.assertTrue(passwordChecker.hasNumbers("abcdweds2345"));
         Assertions.assertFalse(passwordChecker.hasNumbers("asdefrdesdfs"));
     }
 
     @Test
-    public void hasSpecialCharacter() {
-        Assertions.assertTrue(passwordChecker.hasSpecialCharacter("asdw!?asd321"));
+    public void testHasSpecialCharacter() {
+        Assertions.assertTrue(passwordChecker.hasSpecialCharacter("asd$?!"));
         Assertions.assertFalse(passwordChecker.hasSpecialCharacter("asdwsdasd321"));
+    }
+
+    @Test
+    public void testHasUpperCase() {
+        Assertions.assertTrue(passwordChecker.hasUpperCase("asdQWEasdfWs"));
+        Assertions.assertFalse(passwordChecker.hasUpperCase("asdfghjkqwer"));
     }
 
 }
