@@ -58,7 +58,6 @@ public class PasswordChecker {
 //        }
 //        return true;
 
-//      CHYBA DZIALA zrobic zeby ten kod dzialal czyli polaczyc ze skanerem
 
         for (int i = 0; i < password.length() - 1; i++) {
             char currentChar = password.charAt(i);
