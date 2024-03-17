@@ -19,7 +19,7 @@ public class TestPassword {
     @Test
     public void testHasNoRepetitions() {
         Assertions.assertTrue(passwordChecker.hasNoRepetitions("1234567890qw"));
-        Assertions.assertFalse(passwordChecker.hasNoRepetitions("11aadsdsffds"));
+        Assertions.assertFalse(passwordChecker.hasNoRepetitions("11aassdd"));
     }
 
     @Test

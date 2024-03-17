@@ -1,4 +1,30 @@
+import java.util.Scanner;
+
 public class PasswordChecker {
+
+    public boolean validationPassword(String password) {
+        boolean isCorrect = true;
+
+        if(!hasGoodLength(password)) {
+            isCorrect = false;
+        }
+        if(!hasNoWhiteSpaces(password)) {
+            isCorrect = false;
+        }
+        if(!hasNoRepetitions(password)) {
+            isCorrect = false;
+        }
+        if(!hasNumbers(password)) {
+            isCorrect = false;
+        }
+        if(!hasSpecialCharacter(password)) {
+            isCorrect = false;
+        }
+        if(!hasUpperCase(password)) {
+            isCorrect = false;
+        }
+        return isCorrect;
+    }
 
     public boolean hasGoodLength(String password) {
 //        return password.length() >= 12;
@@ -6,7 +32,7 @@ public class PasswordChecker {
         if (password.length() >= 12) {
             return true;
         } else {
-            System.out.println("Password must contain more than 12 characters");
+            System.out.println("The password must contain more than 12 characters");
             return false;
         }
     }
@@ -32,7 +58,7 @@ public class PasswordChecker {
 //        }
 //        return true;
 
-//      zrobic zeby ten kod dzialal czyli polaczyc ze skanerem
+//      CHYBA DZIALA zrobic zeby ten kod dzialal czyli polaczyc ze skanerem
 
         for (int i = 0; i < password.length() - 1; i++) {
             char currentChar = password.charAt(i);
@@ -55,7 +81,7 @@ public class PasswordChecker {
     }
 
     public boolean hasSpecialCharacter(String password) {
-        if(password.matches(".*[@#$%].*")) {
+        if(password.matches(".*[@#$%!?].*")) {
             return true;
         } else {
             System.out.println("The password must contain special characters");

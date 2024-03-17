@@ -114,22 +114,43 @@ public class Main {
 
 
 
-        PasswordChecker passwordChecker = new PasswordChecker();
-
-        System.out.println("=== Pasword Checker === ");
+//        System.out.println("=== Pasword Checker === ");
+//
+//        Scanner sc = new Scanner(System.in);
+//        PasswordChecker passwordChecker = new PasswordChecker();
+//
+//        System.out.println("Entry your password: ");
+//        String pass = sc.nextLine();
+//        boolean isCorrect = passwordChecker.validationPassword(pass);
+//
+//
+////        if(passwordChecker.hasGoodLength(pass) || passwordChecker.hasNoWhiteSpaces(pass) || passwordChecker.hasNoRepetitions(pass) || passwordChecker.hasNumbers(pass) || passwordChecker.hasSpecialCharacter(pass) || passwordChecker.hasUpperCase(pass)) {
+////            System.out.println("Correct password");
+////        } else {
+////            System.out.println("Try again.");
+////        }
+////        sc.close();
+//
+//        if(isCorrect) {
+//            System.out.println("Correct password");
+//        } else {
+//            System.out.println("Try again.");
+//        }
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Entry your password: ");
-        String pass = sc.nextLine();
+        PasswordChecker passwordChecker = new PasswordChecker();
 
-        if(passwordChecker.hasGoodLength(pass) || passwordChecker.hasNoWhiteSpaces(pass) || passwordChecker.hasNoRepetitions(pass) || passwordChecker.hasNumbers(pass) || passwordChecker.hasSpecialCharacter(pass) || passwordChecker.hasUpperCase(pass)) {
-            System.out.println("Correct password");
-        } else {
-            System.out.println("Try again.");
-        }
-        sc.close();
+        boolean isCorrect = false;
+        do {
+            System.out.println("Enter your password: ");
+            String password = sc.nextLine();
+            isCorrect = passwordChecker.validationPassword(password);
 
-
-
+            if(isCorrect) {
+                System.out.println("Correct password");
+            } else {
+                System.out.println("Try again.");
+            }
+        } while (!isCorrect);
     }
 }

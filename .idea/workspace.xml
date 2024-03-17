@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="PasswordChecker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestPassword.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,51 +39,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainMarket.executor": "Run",
-    "Application.MiniMain.executor": "Run",
-    "Application.MyMiniMain.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.TestCountWords.checkWordsCount.executor": "Run",
-    "JUnit.TestPassword.executor": "Run",
-    "JUnit.TestPassword.hasNoRepetitions.executor": "Run",
-    "JUnit.TestPassword.hasSpecialCharacter.executor": "Run",
-    "JUnit.TestPassword.testHasNoRepetitions.executor": "Run",
-    "JUnit.TestPassword.testHasUpperCase.executor": "Run",
-    "JUnit.TestShowcase.executor": "Run",
-    "JUnit.TestShowcase.testArrayEqualsAssertions.executor": "Run",
-    "JUnit.TestSortingList.testArrayAfterSorting.executor": "Run",
-    "JUnit.TestSortingList.testArrayBeforeSorting.executor": "Run",
-    "JUnit.TestsSummingTheArray.checkIfTableReturnTrue.executor": "Run",
-    "JUnit.TestsSummingTheArray.checkReactionForNegativeNumbers.executor": "Run",
-    "Java Scratch.Scratch.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainMarket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiniMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyMiniMain.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.TestCountWords.checkWordsCount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPassword.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPassword.hasNoRepetitions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPassword.hasSpecialCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPassword.testHasNoRepetitions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPassword.testHasUpperCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestShowcase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestShowcase.testArrayEqualsAssertions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSortingList.testArrayAfterSorting.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSortingList.testArrayBeforeSorting.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestsSummingTheArray.checkIfTableReturnTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestsSummingTheArray.checkReactionForNegativeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -132,8 +134,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TestPassword" />
         <item itemvalue="JUnit.TestPassword.testHasNoRepetitions" />
+        <item itemvalue="JUnit.TestPassword" />
         <item itemvalue="JUnit.TestPassword.testHasUpperCase" />
         <item itemvalue="JUnit.TestPassword.hasSpecialCharacter" />
       </list>
@@ -171,7 +173,8 @@
       <workItem from="1710012644184" duration="3540000" />
       <workItem from="1710187300824" duration="497000" />
       <workItem from="1710260757587" duration="1990000" />
-      <workItem from="1710265343913" duration="15962000" />
+      <workItem from="1710265343913" duration="17861000" />
+      <workItem from="1710690775827" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -381,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710601211777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="PasswordChecker">
+      <option name="closed" value="true" />
+      <created>1710602259402</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710602259402</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
