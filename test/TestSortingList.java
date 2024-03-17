@@ -28,3 +28,4 @@ public class TestSortingList {
 
 //Używając metody Assertions.assertArrayEquals() i jej przeciwieństwa sprawdź,
 //czy tablice obiektów są sobie równe przed i po posortowaniu (nie powinny być)
+

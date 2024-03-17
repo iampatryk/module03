@@ -36,6 +36,7 @@ public class PasswordChecker {
             return false;
         }
     }
+
     public boolean hasNoWhiteSpaces(String password) {
 //        return !password.contains(" ");
 
@@ -46,6 +47,7 @@ public class PasswordChecker {
             return true;
         }
     }
+
     public boolean hasNoRepetitions(String password) {
 
 //        //Sprawdzamy/przechodzimy przez kazdy znak
@@ -80,7 +82,7 @@ public class PasswordChecker {
     }
 
     public boolean hasSpecialCharacter(String password) {
-        if(password.matches(".*[@#$%!?].*")) {
+        if(password.matches(".*[@#$%!?=+_*`].*")) {
             return true;
         } else {
             System.out.println("The password must contain special characters");
@@ -110,3 +112,4 @@ public class PasswordChecker {
 //public boolean hasNoRepetitions(String password);
 //public boolean hasNumbers(String password);
 //public boolean hasSpecialCharacter(String password).
+//public boolean hasUpperCase(String password). To dodalem od siebie :)

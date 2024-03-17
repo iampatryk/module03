@@ -159,7 +159,7 @@ public class Main {
             isCorrect = passwordChecker.validationPassword(password);
 
             if(isCorrect) {
-                System.out.println("Correct password");
+                System.out.println("Correct password!");
             } else {
                 System.out.println("Try again.");
             }
