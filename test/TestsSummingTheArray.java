@@ -7,6 +7,8 @@ public class TestsSummingTheArray {
         int[] tablica = {1,3,5};
         int sum = SummingTheArray.sumaTablicyLiczb(tablica);
         Assertions.assertEquals(9,sum);
+        Assertions.assertNotEquals(0,sum);
+//        Assertions.assertTrue();
     }
 
     @Test

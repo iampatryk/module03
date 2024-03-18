@@ -54,6 +54,10 @@ public class Student implements Comparable<Student> {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    public void sortingMet() {
+
+    }
 }
 
 
