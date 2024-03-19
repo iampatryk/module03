@@ -167,5 +167,10 @@ public class Main {
 
 
 
+
+        PasswordChecker passwordChecker = new PasswordChecker();
+        passwordChecker.passwordCheckerPrinter();
+
+
     }
 }

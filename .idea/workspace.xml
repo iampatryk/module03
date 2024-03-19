@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="PasswordChecker">
-      <change afterPath="$PROJECT_DIR$/src/StudentSorting.java" afterDir="false" />
+    <list default="true" id="f9c93ae4-2f42-425e-9ef4-b4dd8ed07595" name="Changes" comment="StudentSorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestSortingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestSortingList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestsSummingTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestsSummingTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestSortingList.testArrayBeforAndAfterSorting">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="module03" />
@@ -138,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestSortingList.testArrayBeforAndAfterSorting" />
         <item itemvalue="JUnit.TestSortingList.testArrayBerorAndArterSorting" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestsSummingTheArray.checkIfTableReturnTrue" />
         <item itemvalue="JUnit.TestPassword.testHasNoRepetitions" />
       </list>
@@ -181,7 +178,7 @@
       <workItem from="1710265343913" duration="17861000" />
       <workItem from="1710690775827" duration="5078000" />
       <workItem from="1710708862877" duration="3000" />
-      <workItem from="1710793075307" duration="3781000" />
+      <workItem from="1710793075307" duration="5155000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -423,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710708504120</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="StudentSorting">
+      <option name="closed" value="true" />
+      <created>1710797183896</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710797183897</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +452,8 @@
     <MESSAGE value="punctuation marks CountWords" />
     <MESSAGE value="unit tests" />
     <MESSAGE value="PasswordChecker" />
-    <option name="LAST_COMMIT_MESSAGE" value="PasswordChecker" />
+    <MESSAGE value="StudentSorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="StudentSorting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,15 +462,6 @@
           <properties class="java.lang.IllegalAccessError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/TestSortingList.java</url>
-          <line>29</line>
-          <properties class="TestSortingList" method="testArrayBeforAndAfterSorting">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

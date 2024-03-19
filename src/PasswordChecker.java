@@ -99,6 +99,33 @@ public class PasswordChecker {
         }
     }
 
+    public void passwordCheckerPrinter() {
+        Scanner sc = new Scanner(System.in);
+        PasswordChecker passwordChecker = new PasswordChecker();
+
+        boolean isCorrect = false;
+        String password;
+
+        do {
+            System.out.println("Enter your password: " + "\n");
+            System.out.println("or 'end' to close program. ");
+            password = sc.nextLine();
+
+            if(password.equalsIgnoreCase("end")) {
+                System.out.println("Exiting program ...");
+                break;
+            }
+
+            isCorrect = passwordChecker.validationPassword(password);
+
+            if(isCorrect) {
+                System.out.println("Correct password!");
+            } else {
+                System.out.println("Try again.");
+            }
+        } while (!isCorrect && !password.equalsIgnoreCase("end"));
+    }
+
 }
 
 
